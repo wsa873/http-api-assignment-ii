@@ -1,0 +1,27 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "HTTP API Assignment ",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4"
+  },
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wsa873/http-api-assignment-ii.git"
+  },
+  "author": "wsa873",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/wsa873/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/wsa873/http-api-assignment-ii#readme"
+}
